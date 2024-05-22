@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1f2937;
+}
+
+.main-body{
+    padding: 32px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #1f2937;
+    width: 500px;
+    padding-bottom: 30x;
+    border: 2px solid #f9faf8;
+
+}
+
+.display-window, .input-window {
+    padding: 10px;
+    width: 450px;
+}
+
+.display-window{
+    text-align: right;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 20px;
+    box-shadow: 0 10px 30px rgba(44, 43, 43, 0.2);
+}
+
+.total {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.steps {
+    font-size: 16px;
+    color: #fafafa;
+}
+
+.input-window {
+    background-color: #1f2937;
+}
+
+.button-rows {
+    width: 450px;
+    padding: 5px;
+}
+
+.btn-input {
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    transition: ease-in-out 400ms;
+    border: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-right: 5px;
+    background-color: #1f2937;
+    color: #3882f6;
+}
+
+.btn-input.equal {
+    width: 200px;
+    background-color: #3882f6;
+    color: #1f2937;
+}
+
+.btn-input:hover {
+    background-color: #f9faf8;
+    color: #1f2937;
+}
