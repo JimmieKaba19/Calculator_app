@@ -42,11 +42,13 @@ body{
 
 .total {
     font-size: 26px;
+    height: 40px;
     font-weight: bold;
 }
 
 .steps {
     font-size: 16px;
+    height: 34px;
     color: #fafafa;
 }
 
@@ -72,6 +74,9 @@ body{
     background-color: #1f2937;
     color: #3882f6;
 }
+
+/* give each operator button a separate color
+ */
 
 .btn-input.equal {
     width: 200px;
