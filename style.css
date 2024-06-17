@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1f2937;
+    background-color: #0e2038;
 }
 
 .main-body{
@@ -23,21 +23,24 @@ body{
     background-color: #1f2937;
     width: 500px;
     padding-bottom: 30x;
-    border: 2px solid #f9faf8;
+    /* border: 2px solid #fafafa; */
 
 }
 
-.display-window, .input-window {
+.display-window, .input-keys {
     padding: 10px;
     width: 450px;
+    margin: 10px;
+    border-radius: 5px;
 }
 
 .display-window{
     text-align: right;
-    background-color: #1f2937;
+    background-color: #0e2038;
     color: #f9faf8;
     font-size: 20px;
     box-shadow: 0 10px 30px rgba(44, 43, 43, 0.2);
+    /* border: 2px solid #f9faf8; */
 }
 
 .total {
@@ -72,16 +75,21 @@ body{
     border-radius: 10px;
     margin-right: 5px;
     background-color: #1f2937;
-    color: #3882f6;
+    color: #f9faf8;
 }
 
 /* give each operator button a separate color
  */
 
 .btn-input.equal {
-    width: 200px;
-    background-color: #3882f6;
-    color: #1f2937;
+    width: 210px;
+    background-color: #FA5F55;
+    color: #f9faf8;
+}
+
+.btn-input.operation{
+    background-color: #0F52BA;
+    color: #f9faf8;
 }
 
 .btn-input:hover {

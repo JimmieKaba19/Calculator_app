@@ -13,21 +13,17 @@
             <div class="display-window">
                 <div class="total">
                 </div>
-                <div class="steps">
-                </div>
+                <div class="steps">0</div>
             </div>
-            <div class="input-window">
+            <div class="input-keys">
                 <div class="button-rows">
-                    <button type="button" class="btn-input" id="btn" id="ac" value="ac">
+                    <button type="button" class="btn-input equal" data-action="all-clear">
                         AC
                     </button>
-                    <button type="button" class="btn-input" id="btn" id="Clear" value="Clear">
-                        Clear
-                    </button>
-                    <button type="button" class="btn-input" id="btn" value="%"> 
+                    <button type="button" class="btn-input operation" data-action="%"> 
                         %
                     </button>
-                    <button type="button" class="btn-input" id="btn" id="divide" value="/">
+                    <button type="button" class="btn-input operation" data-action="/">
                         /
                     </button>
                 </div>
@@ -41,7 +37,7 @@
                     <button type="button" class="btn-input" id="btn" value="9">
                         9
                     </button>
-                    <button type="button" class="btn-input" id="btn" id="times" value="*">
+                    <button type="button" class="btn-input operation" data-action="*">
                         *
                     </button>
                 </div>
@@ -55,7 +51,7 @@
                     <button type="button" class="btn-input" id="btn" value="6">
                         6
                     </button>
-                    <button type="button" class="btn-input" id="btn" id="minus" value="-">
+                    <button type="button" class="btn-input operation" data-action="-">
                         -
                     </button>
                 </div>
@@ -69,7 +65,7 @@
                     <button type="button" class="btn-input" id="btn" value="3">
                         3
                     </button>
-                    <button type="button" class="btn-input" id="btn" id="plus" value="+">
+                    <button type="button" class="btn-input operation" data-action="+">
                         +
                     </button>
                 </div>
@@ -77,10 +73,10 @@
                     <button type="button" class="btn-input" id="btn" value="0">
                         0
                     </button>
-                    <button type="button" class="btn-input" id="btn" id="point" value=".">
+                    <button type="button" class="btn-input" data-action="decimal">
                         .
                     </button>
-                    <button type="button" class="btn-input equal" id="equal" value="=">
+                    <button type="button" class="btn-input equal" data-action="calculate">
                         =
                     </button>
                 </div>
