@@ -2,7 +2,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #0e2038;
+    /* background-color: #0e2038; */
+    background: linear-gradient(to right, #00aaff, #00ff6c);
 }
 
 .main-body{
@@ -20,10 +21,10 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-color: #1f2937;
+    /* background-color: #1f2937; */
     width: 500px;
     padding-bottom: 30x;
-    /* border: 2px solid #fafafa; */
+    border: 4px solid #1f2937;
 
 }
 
@@ -32,11 +33,12 @@ body{
     width: 450px;
     margin: 10px;
     border-radius: 5px;
+    background-color: #1f2937;
 }
 
 .display-window{
     text-align: right;
-    background-color: #0e2038;
+    background-color: rgba(14, 32, 56, .75);
     color: #f9faf8;
     font-size: 20px;
     box-shadow: 0 10px 30px rgba(44, 43, 43, 0.2);

@@ -16,7 +16,6 @@ keys.addEventListener('click', (e) => {
         const keyContent = key.textContent;
         const displayedNum = display.textContent;
         const previousKeyType = calculator.dataset.previousKeyType
-        console.log(keyContent);
         
         const calculate = (n1, operator, n2) => {
             let result = '';
