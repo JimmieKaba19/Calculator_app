@@ -11,72 +11,71 @@
     <main class="main-body">
         <div class="main-content">
             <div class="display-window">
-                <div class="total">
-                </div>
-                <div class="steps">0</div>
+                <input class="total">
+                <input class="steps">
             </div>
             <div class="input-keys">
                 <div class="button-rows">
-                    <button type="button" class="btn-input equal" data-action="all-clear">
+                    <button type="button" onclick="clearDisplay('ac')" class="btn-input equal"  data-action="all-clear">
                         AC
                     </button>
-                    <button type="button" class="btn-input operation" data-action="%"> 
+                    <button type="button" onclick="appendToDisplay('%')" class="btn-input operation" data-action="%"> 
                         %
                     </button>
-                    <button type="button" class="btn-input operation" data-action="/">
+                    <button type="button" onclick="appendToDisplay('/')" class="btn-input operation" data-action="/">
                         /
                     </button>
                 </div>
                 <div class="button-rows">
-                    <button type="button" class="btn-input" id="btn" value="7">
+                    <button type="button" onclick="appendToDisplay('7')" class="btn-input" id="btn" value="7">
                         7
                     </button>
-                    <button type="button" class="btn-input" id="btn" value="8">
+                    <button type="button" onclick="appendToDisplay('8')" class="btn-input" id="btn" value="8">
                         8
                     </button>
-                    <button type="button" class="btn-input" id="btn" value="9">
+                    <button type="button" onclick="appendToDisplay('9')" class="btn-input" id="btn" value="9">
                         9
                     </button>
-                    <button type="button" class="btn-input operation" data-action="*">
+                    <button type="button" onclick="appendToDisplay('*')" class="btn-input operation" data-action="*">
                         *
                     </button>
                 </div>
                 <div class="button-rows">
-                    <button type="button" class="btn-input" id="btn" value="4">
+                    <button type="button" onclick="appendToDisplay('4')" class="btn-input" id="btn" value="4">
                         4
                     </button>
-                    <button type="button" class="btn-input" id="btn" value="5">
+                    <button type="button" onclick="appendToDisplay('5')" class="btn-input" id="btn" value="5">
                         5
                     </button>
-                    <button type="button" class="btn-input" id="btn" value="6">
+                    <button type="button" onclick="appendToDisplay('6')" class="btn-input" id="btn" value="6">
                         6
                     </button>
-                    <button type="button" class="btn-input operation" data-action="-">
+                    <button type="button" onclick="appendToDisplay('-')" class="btn-input operation" data-action="-">
                         -
                     </button>
                 </div>
                 <div class="button-rows">
-                    <button type="button" class="btn-input" id="btn" value="1">
+                    <button type="button" onclick="appendToDisplay('1')" class="btn-input" id="btn" value="1">
                         1
                     </button>
-                    <button type="button" class="btn-input" id="btn" value="2">
+                    <button type="button" onclick="appendToDisplay('2')" class="btn-input" id="btn" value="2">
                         2
                     </button>
-                    <button type="button" class="btn-input" id="btn" value="3">
+                    <button type="button" onclick="appendToDisplay('3')" class="btn-input" id="btn" value="3">
                         3
                     </button>
-                    <button type="button" class="btn-input operation" data-action="+">
+                    <button type="button" onclick="appendToDisplay('+')" class="btn-input operation" data-action="+">
                         +
                     </button>
                 </div>
                 <div class="button-rows">
-                    <button type="button" class="btn-input" id="btn" value="0">
+                    <button type="button" onclick="appendToDisplay('0')" class="btn-input" id="btn" value="0">
                         0
                     </button>
-                    <button type="button" class="btn-input" data-action="decimal">
+                    <button type="button" onclick="appendToDisplay('.')" class="btn-input" data-action="decimal">
                         .
                     </button>
-                    <button type="button" class="btn-input equal" data-action="calculate">
+                    <button type="button" onclick="calculate()" class="btn-input equal" data-action="calculate">
                         =
                     </button>
                 </div>

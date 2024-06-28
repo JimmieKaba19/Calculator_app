@@ -46,15 +46,22 @@ body{
 }
 
 .total {
-    font-size: 26px;
+    font-size: 30px;
     height: 40px;
     font-weight: bold;
+    color: #fafafa;
+    background-color: transparent;
+    border: none;
+    text-align: right;
 }
 
 .steps {
-    font-size: 16px;
+    font-size: 24px;
     height: 34px;
     color: #fafafa;
+    background-color: transparent;
+    border: none;
+    text-align: right;
 }
 
 .input-window {
